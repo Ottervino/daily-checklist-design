@@ -219,3 +219,215 @@ CREATE A PROJECT STATUS DASHBOARD:
 
 **Status**: 🟢 Active | **Last Activity**: March 6, 2026, 12:00 AM EST | **Next Review**: [To be scheduled]
 e.
+
+
+---
+
+## 📊 ENHANCED DESIGN: Detailed Image Prompts for Team Worksheet
+
+### Project: Daily Checklist - Team Worksheet Design
+**Purpose**: Create a printable, professional team worksheet for consistent daily task tracking and project collaboration
+**Format**: A4 Printable (8.5" x 11")
+**Audience**: Creative teams, project managers, startup teams
+**Color Scheme**: White background (printable), accent colors for visual hierarchy
+
+---
+
+## 🎯 DETAILED DESIGN PROMPT: Team Daily Worksheet
+
+### Overall Composition:
+CREATE A PROFESSIONAL PRINTABLE DAILY TASK WORKSHEET TEMPLATE:
+
+**Header Section (Top 20% of page):**
+- Logo/branding area (left): "[COMPANY NAME]" placeholder
+- Title: "Daily Team Worksheet" in bold, modern sans-serif (40pt)
+- Date field: "Date: __________" with underline for handwriting
+- Team/Project name: "Team: __________ | Project: __________"
+- Color accent bar underneath header (bright accent color: cyan/teal)
+
+**Metrics Dashboard (Below header, 15% of page):**
+- 4 circular progress indicators showing:
+  1. "Tasks Completed: __/10" with circle outline for coloring in
+  2. "On Time: __/10" with checkmark icon
+  3. "Quality: ★★★★☆" star rating system (5 stars, 2 filled as example)
+  4. "Team Morale: 😊😐😕" emoji selector
+- All metrics have visual, easy-to-fill format
+
+**Main Task Cards Section (50% of page):**
+- 5-6 Task cards arranged in a grid (2 columns recommended)
+- Each card contains:
+  - **Large checkbox** (1cm x 1cm) on the left
+  - **Task Title** (bold, 14pt)
+  - **Description** (2-3 lines, 11pt, secondary text)
+  - **Priority Level**: Visual indicator (🔴 High | 🟡 Medium | 🟢 Low)
+  - **Assigned To**: [Team Member Name] with small avatar circle
+  - **Time Estimate**: "⏱️ 30 mins" or "⏱️ 1 hour"
+  - **Status Options**: Not Started | In Progress | Blocked | Complete (circles to mark)
+- Card borders: Light gray (0.5pt), rounded corners (4px)
+- Alternate subtle background colors (white and light gray #F5F5F5)
+
+**Example Task Card Detail:**
+```
+☐  Design 2 Sticker Characters
+   Create engaging mascot designs for brand identity
+   Priority: 🔴 High | Assigned: Sarah | Time: 2 hours
+   Status: ⭕ Not Started  ⭕ In Progress  ⭕ Blocked  ⭕ Complete
+```
+
+**Notes & Blockers Section (15% of page):**
+- Two columns:
+  - **Left**: "✍️ Notes:"
+    Lines for handwritten notes (3-4 horizontal lines with light gray border)
+  - **Right**: "⚠️ Blockers/Issues:"
+    Bullet points for team blockers (2-3 lines)
+
+**Footer Section (Bottom 5%):**
+- "Daily Review Time: __:__ AM/PM" with time field
+- "Next Day Priorities: ___________________________________"
+- "Sign Off: _________________ Date: __________"
+- Fine print: "Project tracking template | Print/Fill daily | File weekly"
+
+**Design Elements:**
+- Typography: San-serif font family (Roboto or similar)
+- Main text: Dark gray/charcoal (#333333)
+- Secondary text: Medium gray (#666666)
+- Accent color: Bright cyan or teal (#00D4FF or #00BCD4)
+- Icons: Line-style icons (2pt stroke)
+- Print-friendly: No shadows, optimal contrast for black & white printing
+- White space: Generous margins (0.5" on all sides)
+
+---
+
+## 💾 Detailed Prompt Descriptions by Component
+
+### Component 1: Header with Logo and Date
+**Image Type**: Branding/Navigation Element
+**Description**: 
+- Creates professional first impression
+- Includes company branding area (100px x 100px left side)
+- Large, readable title using bold weight (600)
+- Date input fields for daily tracking
+- Dimensions: Full-width A4, 120px height
+- Visual weight: 20% of document
+
+### Component 2: Team Metrics Dashboard
+**Image Type**: Data Visualization / Progress Tracking
+**Description**:
+- 4 circular progress indicators (80px diameter each)
+- Each circle shows current/total (e.g., 7/10)
+- Visual indicators: checkmarks, stars, emojis
+- Fills and outlines encourage interactive marking
+- Color-coded: Green (high performance), yellow (medium), red (action needed)
+- Dimensions: Full-width, 100px height
+- Purpose: Quick visual reference of daily progress
+
+### Component 3: Task Cards
+**Image Type**: Form Elements / Interactive Cards
+**Description**:
+- Rectangular card containers (card dimensions: ~400px x 150px each)
+- Large checkbox (20x20px) prominent on left
+- Hierarchy: Title > Description > Metadata
+- Metadata includes: Priority badge, assignee, time estimate
+- Status selector with 4 circle options
+- Card background: Alternating white and light gray for readability
+- Shadow: Subtle 1px border (not drop shadow for printing)
+- Interactive: Designed for pen/pencil marking
+
+### Component 4: Priority Indicator System
+**Image Type**: Icon/Badge System
+**Description**:
+- Three-tier priority system using colored circles:
+  - 🔴 Red circle = High priority
+  - 🟡 Yellow circle = Medium priority  
+  - 🟢 Green circle = Low priority
+- 16px diameter circles
+- Filled solid colors for visibility
+- Pairs with "Priority:" label
+- Used consistently across all task cards
+
+### Component 5: Team Member Assignment
+**Image Type**: User Avatar / Assignment Indicator
+**Description**:
+- Small circular avatar (32px diameter) placeholder
+- Contains initials or simple avatar illustration
+- Paired with team member name
+- Located on top-right of each task card
+- Purpose: Clear accountability for each task
+- Supports 4-6 team member variations
+
+### Component 6: Time Estimate Indicator
+**Image Type**: Time/Duration Display
+**Description**:
+- Hourglass or clock icon (14px)
+- Followed by clear time: "30 mins", "1 hour", "2 hours", "4 hours"
+- Located bottom-left of task card
+- Helps with daily time planning
+- Visible font weight for readability
+
+### Component 7: Status Selection Circles
+**Image Type**: Form Input / Selection System
+**Description**:
+- Four hollow circles in a row: ⭕ ⭕ ⭕ ⭕
+- Labeled: "Not Started | In Progress | Blocked | Complete"
+- User can mark/fill one circle per task
+- 12px diameter, 0.5pt stroke
+- Positioned bottom-center of task card
+- Ink-friendly for printing and manual marking
+
+### Component 8: Notes Section
+**Image Type**: Text Input / Notes Area
+**Description**:
+- Two-column layout (50% width each)
+- Left column: "Notes" with 3-4 horizontal lines
+- Right column: "Blockers/Issues" with bullet points
+- Light gray lines (1px, #CCCCCC) for guidance
+- 80px total height
+- Purpose: Capture additional context and impediments
+
+### Component 9: Footer / Sign-Off Section
+**Image Type**: Administrative / Accountability
+**Description**:
+- Contains:
+  - Daily review completion time
+  - Next day priorities notes (longer text field)
+  - Signature line for accountability
+  - Print-friendly QR code (optional) linking to digital version
+- Height: 60px
+- Creates accountability and continuity
+
+---
+
+## 📍 Complete PDF Deliverable
+
+### What's Included in Tonight's Session PDF:
+1. **Executive Summary** - What was accomplished in 1 hour
+2. **Design Files** - Screenshots of Figma design
+3. **Team Worksheet Design** - Full detailed specifications
+4. **Prompt Templates** - All 3 examples with detailed descriptions
+5. **GitHub Repository Link** - Direct access to source files
+6. **Session Timeline** - Minute-by-minute breakdown
+7. **Challenges & Solutions** - What went wrong and how it was fixed
+
+### Tomorrow's Plan (March 7, 2026):
+1. **Morning (9:00 AM - 11:00 AM)**
+   - Finalize Figma design with all components
+   - Create Figma components library
+   - Export design as high-res PNG for web
+
+2. **Afternoon (2:00 PM - 4:00 PM)**
+   - Design 2 sticker characters (start with sketches)
+   - Create sticker design prompt templates
+   - Build sticker component library in Figma
+
+3. **Evening (7:00 PM - 9:00 PM)**
+   - Create PDF template (InDesign or Figma export)
+   - Test printability on standard A4 paper
+   - Create variations (A3, Letter size)
+   - Package for team distribution
+
+---
+
+**Updated Status**: 🟢 Active Development
+**Last Updated**: March 6, 2026, 1:00 AM EST
+**Next Checkpoint**: March 7, 2026, 9:00 AM EST
+**Deliverables Ready**: Enhanced Figma design, detailed prompts, PDF template
